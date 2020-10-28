@@ -25,23 +25,60 @@
 section {
   text-align: center;
 }
+.bg-grey {
+  background-color: #F3F5F9;
+}
+.bg-lightblue {
+  color: white;
+  background-image: linear-gradient(to bottom ,#0041BB, #00209B);
+}
 /* /used */
+
+/* header */
+/* fixed bar */
+.header-top a img {
+  height: 28px;
+}
+/* /fixed bar */
+
+/* form */
+#form {
+  text-align: center;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  color: black;
+}
+#form h2:last-child {
+  color: #006AFF;
+}
+/* /form */
+#fish-bg {
+  color: white;
+  background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
+  background-size: cover;
+}
+/* /header */
 
 /* main */
 .img-cust {
   padding: 60px 0;
   text-align: center;
-  background-color: #F3F5F9;
 }
 .img-container {
   margin: 60px 0;
-  background-color: blue;
 }
 .img-container img {
   padding: 0 30px;
   width: calc((100% / 6) - 60px);
 }
 
+/* get start */
+.btm_color {
+  font-weight: 700;
+  color: #006AFF;
+}
+/* /get start */
+/* /main */
 
 /* footer */
 footer {
