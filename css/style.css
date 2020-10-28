@@ -48,11 +48,16 @@ section {
   border-radius: 10px;
   color: black;
 }
-#form h2:last-child {
+#form h2:nth-child(1n+2) {
   color: #006AFF;
+}
+.btn-size {
+  margin-bottom: 5px;
+  width: 100%
 }
 /* /form */
 #fish-bg {
+  padding: 40px 0;
   color: white;
   background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
   background-size: cover;
