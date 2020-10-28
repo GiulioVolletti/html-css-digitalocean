@@ -21,6 +21,12 @@
   min-height: 100px;
 }
 
+/* used */
+section {
+  text-align: center;
+}
+/* /used */
+
 /* main */
 .img-cust {
   padding: 60px 0;
