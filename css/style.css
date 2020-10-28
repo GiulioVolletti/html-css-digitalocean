@@ -76,13 +76,18 @@ section {
 .btm_color {
   font-weight: 700;
   color: #006AFF;
+  margin-bottom: 20px;
 }
 /* /get start */
 /* /main */
 
 /* footer */
 footer {
+  padding: 20px 0;
   background-color: #010E28;
+}
+footer img {
+  padding: 20px;
 }
 
 @media screen and (max-width: 767px) {
