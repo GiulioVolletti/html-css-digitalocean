@@ -1,17 +1,24 @@
 .debug {
   background-color: red;
 }
-
 .debug [class*=header-] {
   border: 2px solid white;
   min-height: 200px;
   background: black;
 }
-
 .debug [class*=col-] {
-  border: 2px solid orange: ;
+  border: 2px solid orange ;
   min-height: 100px;
   background-color: green
+}
+.debug section {
+  border: 2px solid purple ;
+  background-color: yellow;
+  min-height: 100px;
+}
+.debug footer {
+  border: 2px solid purple ;
+  min-height: 100px;
 }
 
 /* main */
@@ -27,6 +34,12 @@
 .img-container img {
   padding: 0 30px;
   width: calc((100% / 6) - 60px);
+}
+
+
+/* footer */
+footer {
+  background-color: #010E28;
 }
 
 @media screen and (max-width: 767px) {
