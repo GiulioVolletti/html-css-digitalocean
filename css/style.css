@@ -1,0 +1,15 @@
+.debug {
+  background-color: red;
+}
+
+.debug [class*=header-] {
+  border: 2px solid white;
+  min-height: 200px;
+  background: black;
+}
+
+.debug [class*=col-] {
+  border: 2px solid orange;
+  min-height: 100px;
+  background-color: green
+}
