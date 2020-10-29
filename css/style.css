@@ -25,7 +25,12 @@
 h1 {
   font-size: 4em;
 }
+h3 {
+  font-size: 36px;
+  padding :
+}
 h1, h2, h3, h4, p {
+  margin: 20px 0;
   font-weight: 700;
   font-family: 'Roboto', sans-serif;
 }
@@ -158,11 +163,30 @@ aside {
   font-size: 20px;
   padding-bottom: 40px;
 }
+.btn_list {
+  text-align: left;
+  font-weight: 600 ;
+  color: #7B869E;
+  margin: -5px 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-radius: 0;
+}
+.btn_list:hover {
+  background-color: #FFFFFF;
+  border-color: #1633FF;
+  color: black;
+}
 /* /deploy and scale */
 
 /* example */
 #example{
   padding: 40px 0;
+}
+#example > p {
+  padding: 10px 0 40px 0;
+  color: #80746A;
 }
 #example img{
   width: 50%;
@@ -189,6 +213,39 @@ aside {
   color: #1633FF;
 }
 /* /feature */
+
+/* service and speed test */
+.test-speed {
+  padding: 5px 0;
+  width: 100%;
+  border-bottom: 2px solid #CEDAF2;
+}
+.test-speed li:first-child {
+  width: 20%;
+}
+.test-speed li:nth-child(1n+2) {
+  width: 38%;
+}
+.test-speed li:last-child {
+  color: rgb(0, 215, 210);
+  text-align: end;
+}
+.test-speed a {
+  color: rgb(0, 215, 210);
+  text-decoration: none;
+}
+.test-speed a:hover {
+  color: #12298D;
+}
+
+
+/* service and speed test */
+
+/* development teams  */
+#dev-team {
+  padding: 40px 0;
+}
+/* development teams  */
 
 /* get start */
 #get-start {
