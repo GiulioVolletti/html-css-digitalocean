@@ -36,11 +36,32 @@ section {
 
 /* header */
 /* fixed bar */
+.header-top {
+  height: 66px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  background-color: #FFFFFF;
+}
+.header-top .col-xs-4 {
+  height: 66px;
+}
+.header-top a {
+  line-height: 66px;
+}
 .header-top a img {
   height: 28px;
 }
 /* /fixed bar */
 
+#fish-bg {
+  margin-top: 66px;
+  padding: 40px 0;
+  color: white;
+  background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
+  background-size: cover;
+}
 /* form */
 #form {
   text-align: center;
@@ -56,12 +77,6 @@ section {
   width: 100%
 }
 /* /form */
-#fish-bg {
-  padding: 40px 0;
-  color: white;
-  background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
-  background-size: cover;
-}
 /* /header */
 
 /* main */
@@ -78,10 +93,14 @@ section {
 }
 
 /* get start */
+#get-start {
+  padding: 15px 0;
+}
+
 .btm_color {
   font-weight: 700;
   color: #006AFF;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 /* /get start */
 /* /main */
@@ -90,6 +109,7 @@ section {
 footer {
   padding: 20px 0;
   background-color: #010E28;
+  color: #80746A;
 }
 footer img {
   padding: 20px;
