@@ -1,4 +1,4 @@
-.debug {
+/* .debug {
   background-color: red;
 }
 .debug [class*=header-] {
@@ -19,7 +19,7 @@
 .debug footer {
   border: 2px solid purple ;
   min-height: 100px;
-}
+} */
 
 /* used */
 section {
@@ -44,14 +44,30 @@ section {
   z-index: 3;
   background-color: #FFFFFF;
 }
-.header-top .col-xs-4 {
-  height: 66px;
-}
-.header-top a {
-  line-height: 66px;
-}
 .header-top a img {
   height: 28px;
+}
+.header-top [class*=col-] {
+  height: 100%;
+}
+.line-height-fixed {
+  line-height: 66px;
+}
+.header-top a {
+  font-weight: 700;
+  color: #172E5C;
+  text-decoration: none;
+}
+.header-top a:hover {
+  color: #006AFF;
+}
+#sign_up {
+  border-color: #006AFF;
+  color: #006AFF;
+}
+#sign_up:hover {
+  color: #FFFFFF;
+  background-color: #006AFF;
 }
 /* /fixed bar */
 
@@ -116,20 +132,25 @@ footer img {
 }
 
 @media screen and (max-width: 767px) {
+  .hidden_media {
+    font-size: 0;
+  }
   .img-container img {
     padding: 0 10px;
     width: calc((100% / 2) - 20px);
   }
 }
 
-@media screen and (max-width: 767px) {
-  .img-container img {
-    padding: 0 10px;
-    width: calc((100% / 2) - 20px);
+@media screen and (min-width: 992px) and (max-width: 1180px) {
+  .hidden_media {
+    font-size: 0;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  .hidden_media {
+    font-size: 0;
+  }
   .img-container img {
     padding: 0 10px;
     width: calc((100% / 3) - 20px);
