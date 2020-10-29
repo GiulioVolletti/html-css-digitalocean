@@ -148,16 +148,34 @@ aside {
 #deploy-scale{
   padding: 40px 0;
 }
+#deploy-scale p {
+  padding-bottom: 20px;
+  color: #5D6B89;
+}
 #deploy-scale > p{
   width: 80%;
   margin: auto;
   font-size: 20px;
   padding-bottom: 40px;
 }
-#deploy-scale p {
-  color: #80746A;
-}
 /* /deploy and scale */
+
+/* feature */
+#feature {
+  padding: 40px 0;
+}
+#feature p {
+  color: #5D6B89;
+}
+#feature a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+#feature a:hover {
+  color: #1633FF;
+}
+/* /feature */
 
 /* get start */
 #get-start {
