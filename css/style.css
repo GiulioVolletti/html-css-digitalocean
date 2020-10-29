@@ -93,7 +93,7 @@ aside {
 }
 #fish-bg {
   margin-top: 66px;
-  padding: 40px 0;
+  padding: 80px 0;
   color: white;
   background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
   background-size: cover;
@@ -159,6 +159,19 @@ aside {
   padding-bottom: 40px;
 }
 /* /deploy and scale */
+
+/* example */
+#example{
+  padding: 40px 0;
+}
+#example img{
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+  border: 1px solid #A6A6A6;
+  margin-bottom: 10px;
+}
+/* /example */
 
 /* feature */
 #feature {
