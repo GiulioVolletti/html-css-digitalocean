@@ -22,8 +22,18 @@
 } */
 
 /* used */
+h1 {
+  font-size: 4em;
+}
+h1, h2, h3, h4, p {
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
 section {
   text-align: center;
+}
+aside {
+  padding: 0 20px;
 }
 .bg-grey {
   background-color: #F3F5F9;
@@ -69,8 +79,18 @@ section {
   color: #FFFFFF;
   background-color: #006AFF;
 }
+#btm_on_md {
+  color: #006AFF;
+  border: 0;
+}
 /* /fixed bar */
 
+/* header form section */
+#fish-bg .col-sm-6 p {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #B4C8FF;
+}
 #fish-bg {
   margin-top: 66px;
   padding: 40px 0;
@@ -80,6 +100,7 @@ section {
 }
 /* form */
 #form {
+  padding: 20px;
   text-align: center;
   background-color: #FFFFFF;
   border-radius: 10px;
@@ -93,20 +114,50 @@ section {
   width: 100%
 }
 /* /form */
+/* /header form section */
 /* /header */
 
 /* main */
+/* customer */
 .img-cust {
   padding: 60px 0;
   text-align: center;
 }
+.img-cust span {
+  font-weight: 700;
+  color: #5B6987;
+}
 .img-container {
-  margin: 60px 0;
+  margin: 20px 0;
 }
 .img-container img {
   padding: 0 30px;
   width: calc((100% / 6) - 60px);
 }
+.img-cust a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+.img-cust a:hover {
+  color: #1633FF;
+}
+/* /customer */
+
+/* deploy and scale */
+#deploy-scale{
+  padding: 40px 0;
+}
+#deploy-scale > p{
+  width: 80%;
+  margin: auto;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+#deploy-scale p {
+  color: #80746A;
+}
+/* /deploy and scale */
 
 /* get start */
 #get-start {
@@ -131,6 +182,27 @@ footer img {
   padding: 20px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1180px) {
+  .hidden_media {
+    font-size: 0;
+  }
+  .img-container img {
+    padding: 0 10px;
+    width: calc((100% / 3) - 20px);
+  }
+  #sign_up {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1180px) {
+  .hidden_media {
+    font-size: 0;
+  }
+  #sign_up {
+    display: none;
+  }
+}
 @media screen and (max-width: 767px) {
   .hidden_media {
     font-size: 0;
@@ -139,20 +211,8 @@ footer img {
     padding: 0 10px;
     width: calc((100% / 2) - 20px);
   }
-}
-
-@media screen and (min-width: 992px) and (max-width: 1180px) {
-  .hidden_media {
-    font-size: 0;
+  #sign_up {
+    display: none;
   }
 }
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  .hidden_media {
-    font-size: 0;
-  }
-  .img-container img {
-    padding: 0 10px;
-    width: calc((100% / 3) - 20px);
-  }
 }
