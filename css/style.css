@@ -260,34 +260,28 @@ button img {
 #dev-team {
   padding: 40px 0;
 }
-.contain_box {
-  height: 100%;
-  width: 100%;
-  margin-bottom: 20px;
-  position: relative;
+#dev-team > p {
+  color:#80746A;
 }
+
 .contain_box > i {
   padding: 0 20px;
   font-size: 40px;
-  position: absolute;
   top: 50%;
   color: #868FA6;
 }
-.contain_box > i:last-child {
-  right: 15%;
-}
-.contain_box > i:first-child {
-  left: 15%;
-}
+
 .contain_box > i:hover {
   cursor: pointer;
   color: black;
 }
 #dev-review {
+  vertical-align: middle;
   display: inline-block;
   padding: 40px 0;
   width: 40%;
   margin: auto;
+  margin-bottom: 20px;
   border-radius: 10px;
   background-color: #FFFFFF;
 }
