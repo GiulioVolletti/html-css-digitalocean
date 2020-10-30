@@ -37,7 +37,7 @@ section {
   text-align: center;
 }
 aside {
-  padding: 0 20px;
+  padding: 20px 20px 40px 20px;
 }
 .bg-grey {
   background-color: #F3F5F9;
@@ -433,6 +433,12 @@ footer i {
   #sign_up {
     display: none;
   }
+  footer img {
+    padding-left: 0;
+  }
+  footer ul {
+    padding-left: 0;
+  }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1180px) {
@@ -445,7 +451,6 @@ footer i {
   #sign_up {
     display: none;
   }
-
 }
 @media screen and (max-width: 767px) {
   .hidden_media {
@@ -467,5 +472,10 @@ footer i {
   .contain_box > i {
     display: none;
   }
-
+  footer img {
+    padding-left: 0;
+  }
+  footer ul {
+    padding-left: 0;
+  }
 }
