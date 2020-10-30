@@ -250,13 +250,39 @@ button img {
 .test-speed a:hover {
   color: #12298D;
 }
-
-
+.test-speed:last-child {
+  border: 0;
+  padding-bottom: 20px;
+}
 /* service and speed test */
 
 /* development teams  */
 #dev-team {
   padding: 40px 0;
+}
+#dev-review {
+  padding: 40px 0;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+}
+#dev-review p:first-of-type {
+  font-size: 20px;
+  color: #8F98AD;
+}
+#dev-review p:last-of-type {
+  margin-bottom: 0;
+}
+#dev-review a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+#dev-review i {
+  padding-left: 10px;
+  font-size: 11px;
 }
 /* development teams  */
 
@@ -264,7 +290,9 @@ button img {
 #get-start {
   padding: 40px 0;
 }
-
+#get-start a:hover {
+  color: #006AFF;
+}
 .btm_color {
   font-weight: 700;
   color: #006AFF;
@@ -321,6 +349,9 @@ footer i {
   .hidden_media {
     font-size: 0;
   }
+  #dev-review{
+    width: 60%;
+  }
   #sign_up {
     display: none;
   }
@@ -333,6 +364,12 @@ footer i {
   .img-container img {
     padding: 0 10px;
     width: calc((100% / 2) - 20px);
+  }
+  #dev-review img {
+    width: 80%;
+  }
+  #dev-review{
+    width: 60%;
   }
   #sign_up {
     display: none;
