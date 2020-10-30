@@ -27,7 +27,6 @@ h1 {
 }
 h3 {
   font-size: 36px;
-  padding :
 }
 h1, h2, h3, h4, p {
   margin: 20px 0;
@@ -260,11 +259,34 @@ button img {
 #dev-team {
   padding: 40px 0;
 }
+.contain_box {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+}
+.contain_box > i {
+  padding: 0 20px;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  color: #868FA6;
+}
+.contain_box > i:last-child {
+  right: 15%;
+}
+.contain_box > i:first-child {
+  left: 15%;
+}
+.contain_box > i:hover {
+  cursor: pointer;
+  color: black;
+}
 #dev-review {
+  display: inline-block;
   padding: 40px 0;
   width: 40%;
   margin: auto;
-  margin-bottom: 20px;
   border-radius: 10px;
   background-color: #FFFFFF;
 }
@@ -283,6 +305,12 @@ button img {
 #dev-review i {
   padding-left: 10px;
   font-size: 11px;
+}
+#dev-review span {
+  margin: 20px 0;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  color: #868FA6;
 }
 /* development teams  */
 
@@ -372,6 +400,9 @@ footer i {
     width: 60%;
   }
   #sign_up {
+    display: none;
+  }
+  .contain_box > i {
     display: none;
   }
 
