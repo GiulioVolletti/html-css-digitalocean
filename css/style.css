@@ -194,6 +194,7 @@ button img {
   padding: 40px 0;
 }
 #example > p {
+  font-size: 20px;
   padding: 10px 0 40px 0;
   color: #80746A;
 }
@@ -208,7 +209,7 @@ button img {
 
 /* feature */
 #feature {
-  padding: 40px 0;
+  padding: 50px 0;
 }
 #feature p {
   color: #5D6B89;
