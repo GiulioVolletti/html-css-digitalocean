@@ -442,6 +442,10 @@ footer i {
 }
 
 @media screen and (min-width: 992px) and (max-width: 1180px) {
+  h1 {
+    font-size: 3em;
+  }
+  
   .hidden_media {
     font-size: 0;
   }
@@ -453,6 +457,10 @@ footer i {
   }
 }
 @media screen and (max-width: 767px) {
+  h1 {
+    font-size: 3em;
+  }
+
   .hidden_media {
     font-size: 0;
   }
