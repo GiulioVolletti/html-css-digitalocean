@@ -428,7 +428,7 @@ footer i {
   }
   .img-container img {
     padding: 0 10px;
-    width: calc((100% / 3) - 20px);
+    width: calc((100% / 6) - 20px);
   }
   #sign_up {
     display: none;
@@ -445,7 +445,7 @@ footer i {
   h1 {
     font-size: 3em;
   }
-  
+
   .hidden_media {
     font-size: 0;
   }
